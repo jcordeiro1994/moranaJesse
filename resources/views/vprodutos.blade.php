@@ -80,7 +80,7 @@
                                 <div class="card-toolbar">
                                     <div class="d-flex flex-stack mb-5">
                                         <div class="d-flex justify-content-end" data-kt-docs-table-toolbar="base">
-                                            <a href="nprodutos" >
+                                            <a href="{{ url('nprodutos') }}" >
                                                 <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="">
                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                         <rect opacity="0.5" x="11.364" y="20.364" width="16" height="2" rx="1" transform="rotate(-90 11.364 20.364)" fill="currentColor"/>

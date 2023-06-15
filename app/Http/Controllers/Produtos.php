@@ -9,11 +9,6 @@ class Produtos extends Controller
 {
     public function create(Request $request)
     {
-        $validated = $request->validate([
-            'sku' => 'required|unique',
-        ]);
-
-
         $prod = new Produto;
         return view('produtos', [ 'produto' => $prod ] );
     }
